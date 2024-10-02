@@ -1,8 +1,26 @@
-# React + Vite
+# React Hello World
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that renders a "Hello World" button. This project demonstrates the basics of setting up a React component and applying simple styling.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project contains a basic React component that renders a single button with the text "Hello World."
+
+## File Structure
+
+- `App.jsx`: Contains the main component that renders the button.
+- `App.css`: Contains the styles for the `App` component.
+
+## How It Works
+
+1. The `App` function returns a JSX element, a `<button>` with the text "Hello World."
+2. The `App` component is exported and rendered in the main `index.js` file.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: For styling the button in the `App.css` file.
+
+---
+
+Thank you for exploring this React Hello World project! 😊
